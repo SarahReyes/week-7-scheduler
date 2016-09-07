@@ -15,3 +15,18 @@
     storageBucket: "",
   };
   firebase.initializeApp(config);
+
+  var trainName;
+  var trainDestination;
+  var trainFrequencyMinutes;
+  var trainNextArrival;
+  var trainHowManyMinutesAway;
+
+  // user clicks the submit button to add their train info
+  $("#addTrainBtn").on('click', function(){
+      trainName = $("#trainNameInput").val().trim();
+      trainDestination = $("#destinationInput").val().trim();
+      trainFrequencyMinutes = $("#frequencyInput").val().trim();
+      trainNextArrival = $("#timeInput").val().trim();
+
+  });
