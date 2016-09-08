@@ -3,25 +3,25 @@ font-family: 'Eater', cursive;
 font-family: 'Ravi Prakash', cursive;
 font-family: 'Combo', cursive;
 font-family: 'Metal Mania', cursive;
+font-family: 'Limelight', cursive;
 */
 
-
-
-.jumbotron {
-  background-image: url("../images/hogwarts-train-04.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0px -300px;
-
+body {
+  font-family: 'Limelight', cursive;
+  letter-spacing: 1.5px;
 }
 .text-center {
-  font-family: 'Metal Mania', cursive;
-  font-size: 80px;
-  letter-spacing: 2px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-.panel-heading, panel-body {
-  font-family: 'Combo', cursive;
-  font-size: 24px;
+.panel-primary>.panel-heading {
+  background-color: #E3924D;
+  border-color: black;
+}
+.panel-primary {
+  border-color: black;
+}
+.btn-primary {
+  background-color: #7296B6;
+  border-color: #7296B6;
 }
