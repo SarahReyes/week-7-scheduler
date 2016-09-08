@@ -1,0 +1,27 @@
+/*
+font-family: 'Eater', cursive;
+font-family: 'Ravi Prakash', cursive;
+font-family: 'Combo', cursive;
+font-family: 'Metal Mania', cursive;
+*/
+
+
+
+.jumbotron {
+  background-image: url("../images/hogwarts-train-04.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -300px;
+
+}
+.text-center {
+  font-family: 'Metal Mania', cursive;
+  font-size: 80px;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.panel-heading, panel-body {
+  font-family: 'Combo', cursive;
+  font-size: 24px;
+}
