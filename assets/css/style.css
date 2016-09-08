@@ -9,13 +9,14 @@ font-family: 'Limelight', cursive;
 body {
   font-family: 'Limelight', cursive;
   letter-spacing: 1.5px;
+  background-color: #EEEEEE;
 }
 .text-center {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 .panel-primary>.panel-heading {
-  background-color: #E3924D;
+  background-color: #F0A86A;
   border-color: black;
 }
 .panel-primary {

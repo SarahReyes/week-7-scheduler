@@ -68,10 +68,16 @@ firebase.database().ref().on("child_added", function(childSnapshot){
     trainName = childSnapshot.val().name;
     trainDestination = childSnapshot.val().destination;
     trainFrequencyMinutes = childSnapshot.val().frequency;
+    // firstTrainTime needs to include current date, since it's the first train ever of all time
     firstTrainTime = childSnapshot.val().arrival;
+
+    // check the value of the firstTrainTime, check the value of trainFrequencyMinutes
+    // based on when the first train starts, also based on the current time, use the frequency to calulate when the next train will arrive
 
     // grabbing the current time from momentjs
     var currentTime = moment();
+
+    firstTrainTime
 
     var trainNextArrival = currentTime.diff(firstTrainTime, trainFrequencyMinutes, "minutes");
     console.log(trainNextArrival);
